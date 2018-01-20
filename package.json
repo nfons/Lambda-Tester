@@ -1,0 +1,27 @@
+{
+  "name": "lambda-tester",
+  "version": "1.0.0",
+  "description": "Simple Lambda file tester in nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilnate22/Lambda-Tester.git"
+  },
+  "author": "Nate Fonseka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lilnate22/Lambda-Tester/issues"
+  },
+  "homepage": "https://github.com/lilnate22/Lambda-Tester#readme",
+  "dependencies": {
+    "aws-sdk": "^2.178.0",
+    "cat-facts": "^1.0.2",
+    "uglifyjs-webpack-plugin": "^1.1.6",
+    "uniquerandom": "^1.0.0",
+    "webpack": "^3.10.0"
+  }
+}
